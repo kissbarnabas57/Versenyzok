@@ -9,9 +9,9 @@ namespace Versenyzők
 {
     class lista
     {
-        private int nev;
+        private string nev;
 
-        public int Nev
+        public string Nev
         {
             get { return nev; }
             set { nev = value; }
@@ -23,9 +23,9 @@ namespace Versenyzők
             get { return szuletesi_datum; }
             set { szuletesi_datum = value; }
         }
-        private int nemzetiseg;
+        private string nemzetiseg;
 
-        public int Nemzetiseg
+        public string Nemzetiseg
         {
             get { return nemzetiseg; }
             set { nemzetiseg = value; }
@@ -38,7 +38,7 @@ namespace Versenyzők
             set { rajtszam = value; }
         }
 
-        public lista(int nev, int szuletesi_datum, int nemzetiseg, int rajtszam)
+        public lista(string nev, int szuletesi_datum, string nemzetiseg, int rajtszam)
         {
             this.nev = nev;
             this.szuletesi_datum = szuletesi_datum;
